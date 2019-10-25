@@ -56,6 +56,7 @@ public class MainWindow extends JFrame implements ActionListener{
         Button reset = new Button ("RESET");
         Button delete = new Button("DELETE");
 
+
         circle.addActionListener(this);
         rectangle.addActionListener(this);
         polygon.addActionListener(this);
